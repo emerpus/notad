@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    maven {
+        name 'aliyun maven repository'
+        url 'http://maven.aliyun.com/nexus/content/groups/public/'
+    }
+
+    mavenCentral()
+}
+
+application {
+    mainClassName = 'innerclasses.Callbacks'
+}
+
+tasks.withType(JavaCompile) {
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+    options.encoding = 'UTF-8'
+}

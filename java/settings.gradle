@@ -1,0 +1,3 @@
+rootProject.name = 'notepad-java'
+
+include 'data_structures_and_algorithm'

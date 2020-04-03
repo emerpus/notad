@@ -1,0 +1,24 @@
+description = 'Java学习笔记'
+
+allprojects {
+    group = 'com.chen'
+    version = '0.1'
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    repositories {
+        maven {
+            name 'aliyun maven repository'
+            url 'https://maven.aliyun.com/nexus/content/groups/public/'
+        }
+    }
+
+    tasks.withType(JavaCompile) {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+        options.encoding = 'UTF-8'
+    }
+}
+

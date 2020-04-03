@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.chen.dsaa.sort.algorithm.BubbleSortTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-12T07:03:36" hostname="localhost" time="0.0">
+  <properties/>
+  <testcase name="sortTest" classname="com.chen.dsaa.sort.algorithm.BubbleSortTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
